@@ -288,7 +288,7 @@
                 return this._div;
             };
             title.update = function () {
-                this._div.innerHTML = '<h2>Distribusi Sampel Survei</h2>';
+                this._div.innerHTML = '<h2>Peta Distribusi Sampel</h2>';
             };
             title.addTo(map);
             var abstract = new L.Control({'position':'bottomleft'});
@@ -303,7 +303,7 @@
                 abstract.show = function () {
                     this._div.classList.remove("abstract");
                     this._div.classList.add("abstractUncollapsed");
-                    this._div.innerHTML = 'Peta sebaran sampel survei penelitian terkait praktik adopsi "Climate Smart Agriculture" di Gapoktanhut Lestari Sejahtera, Kecamatan Semaka, Kabupaten Tanggamus, Provinsi Lampung Tahun 2023';
+                    this._div.innerHTML = 'Peta interaktif sebaran sampel survei penelitian terkait praktik adopsi "Climate Smart Agriculture" di Gapoktanhut Lestari Sejahtera, Kecamatan Semaka, Kabupaten Tanggamus, Provinsi Lampung Tahun 2023';
             };
             abstract.addTo(map);
         var baseMaps = {};
